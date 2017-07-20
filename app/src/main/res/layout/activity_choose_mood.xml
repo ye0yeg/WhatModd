@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        />
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/iv_home_setting"
+            android:layout_width="33dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@null"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            app:srcCompat="@drawable/ic_setting"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_happy"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="#229933"
+        />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_normal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="#22ff33"
+        />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_sad"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="#f29933"
+        />
+
+
+</LinearLayout>
